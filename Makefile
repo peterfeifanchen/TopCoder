@@ -1,3 +1,6 @@
+CheatCode: CheatCode.cpp
+	g++ -std=c++11 $< -o $@
+
 Boxing: Boxing.cpp
 	g++ -std=c++11 $< -o $@
 
