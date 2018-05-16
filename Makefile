@@ -7,6 +7,9 @@ Boxing: Boxing.cpp
 StarAdventure: StarAdventure.cpp
 	g++ -std=c++11 $< -o $@
 
+QueenInterference: QueenInterference.cpp
+	g++ -std=c++11 -g -O0 $< -o $@
+
 .PHONY: clean
 clean:
-	rm Boxing StarAdventure
+	rm Boxing StarAdventure CheatCode QueenInterference
