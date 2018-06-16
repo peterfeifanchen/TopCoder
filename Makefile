@@ -10,6 +10,9 @@ StarAdventure: StarAdventure.cpp
 QueenInterference: QueenInterference.cpp
 	g++ -std=c++11 -g -O0 $< -o $@
 
+Parking: Parking.cpp
+	g++ -std=c++11 -g -O0 $< -o $@
+
 .PHONY: clean
 clean:
-	rm Boxing StarAdventure CheatCode QueenInterference
+	rm Boxing StarAdventure CheatCode QueenInterference Parking
