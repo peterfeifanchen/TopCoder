@@ -16,7 +16,10 @@ Parking: Parking.cpp
 FairWorkload: FairWorkload.cpp
 	g++ -std=c++11 -g -O0 $< -o $@
 
+FloatingMedian: FloatingMedian.cpp
+	g++ -std=c++11 -g -O0 $< -o $@
+
 .PHONY: clean
 clean:
 	rm Boxing StarAdventure CheatCode QueenInterference Parking \
-	   FairWorkload
+	   FairWorkload FloatingMedian
